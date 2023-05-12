@@ -1,7 +1,7 @@
 local UserInputService = game:GetService("UserInputService")
 if UserInputService.TouchEnabled then
     spawn(function()
-        local RoyXUi = game.CoreGui:FindFirstChild("Roxy") or game.CoreGui:FindFirstChild("BTUI") 
+        local RoyXUi = game.CoreGui:WaitForChild("Roxy",5) or game.CoreGui:WaitForChild("BTUI",5) 
         if not RoyXUi then
             task.wait(2) 
             RoyXUi = game.CoreGui:FindFirstChild("Roxy") or game.CoreGui:FindFirstChild("BTUI")
