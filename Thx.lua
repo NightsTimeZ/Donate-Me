@@ -1,11 +1,8 @@
 local UserInputService = game:GetService("UserInputService")
-if UserInputService.TouchEnabled then
+if UserInputService.TouchEnabled or _G.Close_Ui then
     spawn(function()
         local RoyXUi = game.CoreGui:WaitForChild("Roxy",5) or game.CoreGui:WaitForChild("BTUI",5) 
-        if not RoyXUi then
-            task.wait(2) 
-            RoyXUi = game.CoreGui:FindFirstChild("Roxy") or game.CoreGui:FindFirstChild("BTUI")
-        end
+
         if not RoyXUi then return end
         if game:GetService("CoreGui"):FindFirstChild("CloseUI") then
             game:GetService("CoreGui"):FindFirstChild("CloseUI"):Destroy()
