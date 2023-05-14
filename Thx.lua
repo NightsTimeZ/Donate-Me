@@ -1,6 +1,6 @@
 (function(...)
 	local UserInputService = game:GetService("UserInputService")
-local args = {...}
+	local args = {...}
 	if UserInputService.TouchEnabled or _G.Close_Ui then
 		spawn(function()
 			local RoyXUi = args[1]
@@ -36,7 +36,7 @@ local args = {...}
 			TextLabel.Position = UDim2.new(0, 0, 0.0212765951, 0)
 			TextLabel.Size = UDim2.new(0, 47, 0, 47)
 			TextLabel.Font = Enum.Font.GothamBold
-			TextLabel.Text = "ON"
+			TextLabel.Text = "OFF"
 			TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 			TextLabel.TextSize = 14.000
 		
