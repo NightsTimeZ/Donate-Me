@@ -1,8 +1,9 @@
 (function(...)
 	local UserInputService = game:GetService("UserInputService")
+local args = {...}
 	if UserInputService.TouchEnabled or _G.Close_Ui then
 		spawn(function()
-			local RoyXUi = ...
+			local RoyXUi = args[1]
 	
 			if not RoyXUi then return end
 			if game:GetService("CoreGui"):FindFirstChild("CloseUI") then
