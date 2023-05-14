@@ -1,8 +1,8 @@
-(function(xss)
+(function(...)
 	local UserInputService = game:GetService("UserInputService")
 	if UserInputService.TouchEnabled or _G.Close_Ui then
 		spawn(function()
-			local RoyXUi = xss
+			local RoyXUi = ...
 	
 			if not RoyXUi then return end
 			if game:GetService("CoreGui"):FindFirstChild("CloseUI") then
@@ -62,4 +62,4 @@
 			end)
 		end)
 	end
-end)(x)
+end)(...)
