@@ -1,7 +1,7 @@
 (function(...)
 	local UserInputService = game:GetService("UserInputService")
 	local args = {...}
-	if UserInputService.TouchEnabled or _G.Close_Ui then
+	if true then
 		spawn(function()
 			local RoyXUi = args[1]
 	
