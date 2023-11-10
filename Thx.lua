@@ -72,10 +72,11 @@ end
 		
 			local ScreenGui = Instance.new("ScreenGui")
 			local Frame = Instance.new("Frame")
-					MakeDraggable(Frame,Frame) 
+					 
 			local UICorner = Instance.new("UICorner")
 			local TextLabel = Instance.new("TextLabel")
 			local TextButton = Instance.new("TextButton")
+					MakeDraggable(TextButton,Frame)
 				
 			ScreenGui.Name = "CloseUI"
 			ScreenGui.Parent = game:GetService("CoreGui")
