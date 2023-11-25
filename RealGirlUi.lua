@@ -254,7 +254,7 @@ local function TranTween(path)
 end
 
 local function textchange(a,b)
-    G2L["1"..tostring(a)]["text"] = b
+    G2L["1"..tostring(a)]["Text"] = b
 end
 
 TranTween(G2L["5"])
