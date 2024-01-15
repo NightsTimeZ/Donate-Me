@@ -3,6 +3,8 @@
 	local args = {...}
 	if true then
 		spawn(function()
+					set_thread_identity = set_thread_identity or function(...) end
+set_thread_identity(8)
 			local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local LocalPlayer = game:GetService("Players").LocalPlayer
