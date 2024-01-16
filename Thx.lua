@@ -73,7 +73,6 @@ end
 			end
 		
 			local ScreenGui = Instance.new("ScreenGui")
-					ScreenGui.IgnoreGuiInset = true
 			local Frame = Instance.new("Frame")
 Frame.ZIndex = 99999
 					 
