@@ -3,7 +3,16 @@
 	local args = {...}
 	if true then
 		spawn(function()
-					set_thread_identity = set_thread_identity or function(...) end
+if not getgenv().Key then 
+if not _G.Key then 
+							if not FreeScript then
+game.Players.LocalPlayer:Kick("hades so noob") 
+
+    task. wait(1) 
+    while true do end 
+							end
+  end
+					end					set_thread_identity = set_thread_identity or function(...) end
 set_thread_identity(8)
 			local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
