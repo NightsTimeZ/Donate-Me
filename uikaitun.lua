@@ -12,6 +12,7 @@ function Lib:Create()
     Main.Name = "Main"
     Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
     Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    Main.IgnoreGuiInset = true
 
     base.Name = "base"
     base.Parent = Main
