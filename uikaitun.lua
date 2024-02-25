@@ -10,7 +10,7 @@ function Lib:Create()
     local Name = Instance.new("TextLabel")
 
     Main.Name = "Main"
-    Main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+    Main.Parent = game.CoreGui
     Main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
     Main.IgnoreGuiInset = true
 
