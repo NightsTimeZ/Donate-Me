@@ -75,8 +75,7 @@ function Lib:Create()
         TextLabel.TextColor3 = Color3.new(1, 1, 1)
         TextLabel.TextScaled = true
         TextLabel.TextSize = 22
-        TextLabel.TextStrokeColor3 = Color3.new(1, 1, 1)
-        TextLabel.TextStrokeTransparency = 0.10000000149011612
+        TextLabel.TextStrokeTransparency = 11
         TextLabel.TextWrapped = true
         return TextLabel
     end
