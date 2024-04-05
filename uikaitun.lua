@@ -1,7 +1,8 @@
 local Lib = {}
 set_thread_identity = setidentity or set_thread_identity or function(...) end
 set_thread_identity(6)
-function Lib:Create()
+function Lib:Create(namewasd)
+    namewasd = namewasd or "RoyX Kaitun ;>"
     set_thread_identity(6)
     local Main = Instance.new("ScreenGui")
     local base = Instance.new("Frame")
@@ -32,7 +33,7 @@ function Lib:Create()
     Name.Position = UDim2.new(0.336795241, 0, 0.0264900662, 0)
     Name.Size = UDim2.new(0.252225518, 0, 0.0750551894, 0)
     Name.Font = Enum.Font.FredokaOne
-    Name.Text = "RoyX Kaitun ;>"
+    Name.Text = namewasd
     Name.TextColor3 = Color3.new(1, 1, 1)
     Name.TextSize = 40
     Name.TextStrokeColor3 = Color3.new(0.886275, 0.886275, 0.886275)
