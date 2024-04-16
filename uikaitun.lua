@@ -1,9 +1,9 @@
 local Lib = {}
 set_thread_identity = setidentity or set_thread_identity or function(...) end
-set_thread_identity(6)
+set_thread_identity(8)
 function Lib:Create(namewasd)
     namewasd = namewasd or "RoyX Kaitun ;>"
-    set_thread_identity(6)
+    set_thread_identity(8)
     local Main = Instance.new("ScreenGui")
     local base = Instance.new("Frame")
     local logo = Instance.new("ImageLabel")
