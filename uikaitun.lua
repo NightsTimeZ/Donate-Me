@@ -23,6 +23,7 @@ function Lib:Create(namewasd)
     base.BorderColor3 = Color3.new(0, 0, 0)
     base.BorderSizePixel = 0
     base.Size = UDim2.new(1, 100, 1, 100)
+    base.BackgroundTransparency = 0.5
 
     Name.Name = "Name"
     Name.Parent = base
