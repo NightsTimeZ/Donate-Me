@@ -83,6 +83,9 @@ function Lib:Create(namewasd)
         TextLabel.TextWrapped = true
         return TextLabel
     end
+    function tempfu:close()
+        Main.Enabled = not Main.Enabled
+    end
     return tempfu
 end
 return Lib
